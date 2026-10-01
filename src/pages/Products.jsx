@@ -69,7 +69,7 @@ function Products() {
                 <button
                   onClick={() => handleAddToCart(product.id)}
                   disabled={product.stockQuantity === 0}
-                  className="mt-auto w-full py-2 rounded-lg bg-indigo-600 text-white font-medium hover:bg-indigo-700 disabled:bg-gray-300 disabled:cursor-not-allowed transition-colors"
+                  className="mt-auto w-full rounded-lg bg-indigo-600 py-2.5 font-semibold text-white transition duration-200 hover:bg-indigo-700 hover:shadow-lg hover:-translate-y-0.5 active:scale-95 disabled:bg-gray-300 disabled:text-gray-500 disabled:shadow-none disabled:translate-y-0 disabled:scale-100 disabled:cursor-not-allowed"
                 >
                   Add to Cart
                 </button>

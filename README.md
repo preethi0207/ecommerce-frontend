@@ -35,7 +35,18 @@ React frontend for the [E-Commerce Backend](https://github.com/preethi0207/ecomm
 ```
 
 ## Screenshots
-_Add screenshots here_
+### Products
+![Products](screenshots/products1.png)
+![Products](screenshots/products2.png)
+
+### Cart
+![Cart](screenshots/cart.png)
+
+### Orders
+![Orders](screenshots/orders.png)
+
+### Admin
+![Admin](screenshots/admin_Page.png)
 
 ## Backend
 https://github.com/preethi0207/ecommerce-backend
