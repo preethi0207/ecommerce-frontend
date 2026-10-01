@@ -54,7 +54,7 @@ function Home() {
   const { user } = useSelector((state) => state.auth);
   return (
     <div className="max-w-3xl mx-auto px-6 py-16 text-center">
-      <h1 className="text-3xl font-bold text-gray-900 mb-2">Ecommerce Frontend</h1>
+      <h1 className="text-3xl font-bold text-gray-900 mb-2">Ecommerce App</h1>
       <p className="text-gray-500 mb-6">Welcome{user ? `, ${user.name || user.email}` : ''}!</p>
       <Link
         to="/products"
